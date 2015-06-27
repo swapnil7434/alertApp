@@ -1,0 +1,14 @@
+<div class="content">
+    <header class="bar bar-nav">
+        <button class="btn btn-link btn-nav pull-left" ng-click="goBack()">
+            <span class="icon icon-left-nav"></span>
+            Back
+        </button>
+        <h1 class="title">Alert Detail</h1>
+    </header>
+    <form name="alertForm">
+        <input name="dateTime" type="datetime" ng-model="content.dateTime" date-time hours placeholder="Alert Date - Time"/>
+        <textarea name="message" rows="5" placeholder="Message" ng-model="content.message"></textarea>
+        <button class="btn btn-positive btn-block" ng-click="save()">Save</button>
+    </form>
+</div>

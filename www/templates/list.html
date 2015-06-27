@@ -1,0 +1,16 @@
+ <div class="content">
+    <header class="bar bar-nav">
+        <a class="icon icon-plus pull-right" ng-click="goToDetail()"></a>
+        <h1 class="title">Alerts</h1>
+    </header>
+    <ul class="table-view">
+        <li class="table-view-cell media" ng-repeat="alert in alertList" ng-click="fetchDetail($index, alert)">
+            <div class="media-body" style="width: 106%;">
+                on <a class="navigate-right">{{alert.dateTime}}</a><a class="icon icon-close pull-right" ng-click="deleteAlert($index, $event)"></a>
+                <p>
+                    {{alert.message}}
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>

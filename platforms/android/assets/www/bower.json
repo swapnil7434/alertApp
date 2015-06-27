@@ -1,0 +1,23 @@
+{
+  "name": "alertApp",
+  "version": "0.0.1",
+  "description": "Alert Application",
+  "main": "index.html",
+  "keywords": [
+    "angular"
+  ],
+  "authors": [
+    "swapnil tandel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-datepicker": "~1.0.12"
+  }
+}
